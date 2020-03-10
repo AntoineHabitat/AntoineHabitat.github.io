@@ -199,8 +199,8 @@ h6, .h6-like {
 
 svg {
   position:relative;
-height: auto;
-max-width: 100%;
+ height: auto;
+ width: 100%;
 }
 	
 
