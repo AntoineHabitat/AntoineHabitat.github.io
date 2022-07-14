@@ -8,93 +8,26 @@ body {
 }
 
 
-h1, .h1-like {
-	text-align: center;
-	font-size: 2em;
-	color: dddddd;
-	font-weight: normal;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-h2, .h2-like {
-	font-size: 3em;
-	color: ffcc00;
-	font-weight: normal;
-	margin-left: 0%;
-	text-align: justify;
-}
-
-h3, .h3-like {
-	font-size: 2em;
-	color: dddddd;
-	font-weight: normal;
-	margin-left: 10%;
-}
-
-h4, .h4-like {
-	font-size: 1.7em;
-	color: dddddd;
-	font-weight: normal;
-	margin-left: 15%;
-	margin-top: 0%
-}
-
-h5, .h5-like {
-	font-size: 2em;
-	color: dddddd;
-	font-weight: normal;
-	line-height: 1.9em;
-	margin-left: 15%;
-}
-
-h6, .h6-like {
-	font-size: 1.7em;
-	color: dddddd;
-	font-weight: normal;
-	margin-left: 15%;
-	margin-top: 0%
-}
-
-
-#c1 {
-	width: auto;
-	height: auto;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-#repetinfo {
-	position:relative;
-	width: auto;
-	height: auto;
-	margin-left: 5%;
-	margin-right: 5%;
-}
-
 #fondetc {
 	position:relative;
 	width: auto;
 	height: auto;
-	margin-left: 3%;
-	margin-right: 3%;
+	margin-left: 0%;
+	margin-right: 0%;
 }
 
-#communes {
-	position:absolute;
-	font-size: 1em;
-	color: dddddd;
-	font-weight: normal;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: justify;
-}
 
-	
+svg {
+ position:relative;
+ height: auto;
+ width: 94%;
+ margin-left: 3%
+ }
+
 #zone1  {
 	position:absolute;
 	left: 15%;
-	top: 0%;
+	top: 1%;
 	width:70%;
 	height: 25%;
 	}
@@ -129,30 +62,6 @@ h6, .h6-like {
 	top: 75%;
 	width: 50%;
 	height: 20%;
-	}
-
-#zone6  {
-	position:absolute;
-	left: 0%;
-	top: 0%;
-	width: 0%;
-	height: 0%;
-	}
-
-#zone7  {
-	position:absolute;
-	left: 0%;
-	top: 0%;
-	width: 0%;
-	height: 0%;
-	}
-
-#zone8  {
-	position:absolute;
-	left: 0%;
-	top: 0%;
-	width: 0%;
-	height: 0%;
 	}
 
 #zone9a  {
@@ -194,23 +103,40 @@ h6, .h6-like {
 	width: 40%;
 	height: 20%;
 	}
+	
+	
+}	
 
+#repetinfo {
+	position:absolute;
+	width: auto;
+	height: auto;
+	margin-left: 5%;
+	margin-right: 5%;
+}
 
-
-#fond  {
-	position:relative;
+#communes {
+	position:absolute;
+	font-size: 1em;
+	color: dddddd;
+	font-weight: normal;
 	margin-left: auto;
 	margin-right: auto;
-	width:100%;
-	height: auto;
-	}
-
-svg {
- position:relative;
- height: auto;
- width: 100%;
+	text-align: justify;
 }
-	
+
+h1, .h1-like {
+	position: relative;
+	text-align: center;
+	font-size: 2em;
+	color: dddddd;
+	font-weight: normal;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+
 
 a {
 	text-decoration: underline;
@@ -224,35 +150,6 @@ div:hover {
 	background-color: rgba(255, 255, 255, 0.3);
 }
 
-
-img {
-	margin-left: auto; 
-	margin-right: auto;
-	height: auto;
-	vertical-align: top;
-	border: none;
-}
-
-footer {
-	width: 100%;
-	height: 3%;
-	text-align: center;
-	padding-top: 2%;
-	padding-bottom: 3%;
-	font-size: 4em;
-	font-weight: bold;
-	color: ff6600;
-	position: fixed;
-	left: 0%;
-	bottom: 0%;
-	background-color: rgba(0, 0, 0, 0.25);
-	z-index: 1;
-"
-}
-
-footer:hover {
-	background-color: rgba(0, 0, 0, 0.75);
-	}
 
 .obfusc span {
 	display: none;
