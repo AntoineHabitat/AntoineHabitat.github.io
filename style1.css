@@ -21,7 +21,8 @@ svg {
  position:relative;
  height: auto;
  width: 94%;
- margin-left: 3%
+ margin-left: 3%;
+ margin-right : 3%;
  }
 
 #zone1  {
@@ -29,86 +30,86 @@ svg {
 	left: 15%;
 	top: 1%;
 	width:70%;
-	height: 25%;
+	height: 10%;
 	}
 
 #zone2  {
 	position:absolute;
 	left: 5%;
-	top: 32%;
-	width: 90%;
-	height: 15%;
+	top: 13%;
+	width: 93%;
+	height: 6%;
 	}
 
 #zone3  {
 	position:absolute;
 	left: 5%;
-	top: 50%;
+	top: 22%;
 	width: 40%;
-	height: 80%;
+	height: 33%;
 	}
 
 #zone4  {
 	position:absolute;
 	left: 45%;
-	top: 55%;
-	width: 50%;
-	height: 20%;
+	top: 22%;
+	width: 52%;
+	height: 10%;
 	}
 
 #zone5  {
 	position:absolute;
 	left: 45%;
-	top: 75%;
-	width: 50%;
-	height: 20%;
+	top: 32%;
+	width: 52%;
+	height: 8%;
 	}
 
 #zone9a  {
 	position:absolute;
 	left: 4%;
-	top: 140%;
+	top: 58%;
 	width: 15%;
-	height: 20%;
+	height: 10%;
 	}
 
 #zone9b  {
 	position:absolute;
-	left: 22%;
-	top: 138%;
-	width: 75%;
-	height: 25%;
+	left: 23%;
+	top: 58%;
+	width: 73%;
+	height: 10%;
 	}
 
 #zone10  {
 	position:absolute;
 	left: 5%;
-	top: 170%;
+	top: 71%;
 	width: 90%;
-	height: 35%;
+	height: 15%;
 	}
 
 #zone11  {
 	position:absolute;
 	left: 7%;
-	top: 215%;
-	width: 40%;
-	height: 20%;
+	top: 91%;
+	width: 41%;
+	height: 7%;
 	}
 
 #zone12  {
 	position:absolute;
 	left: 55%;
-	top: 215%;
-	width: 40%;
-	height: 20%;
+	top: 91%;
+	width: 35%;
+	height: 7%;
 	}
 	
 	
 }	
 
 #repetinfo {
-	position:absolute;
+	position:relative;
 	width: auto;
 	height: auto;
 	margin-left: 5%;
@@ -124,6 +125,15 @@ svg {
 	margin-right: auto;
 	text-align: justify;
 }
+
+#fond  {
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	height: auto;
+	}
+
 
 h1, .h1-like {
 	position: relative;
