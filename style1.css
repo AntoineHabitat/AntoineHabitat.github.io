@@ -68,8 +68,16 @@ h6, .h6-like {
 	position:relative;
 	width: auto;
 	height: auto;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#fondetc {
+	position:relative;
+	width: auto;
+	height: auto;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
 #communes {
@@ -87,96 +95,104 @@ h6, .h6-like {
 	position:absolute;
 	left: 15%;
 	top: 0%;
-	width:78%;
-	height: 12%;
+	width:70%;
+	height: 25%;
 	}
 
 #zone2  {
 	position:absolute;
-	left: 15%;
-	top: 13%;
-	width:78%;
-	height: 7%;
+	left: 5%;
+	top: 32%;
+	width: 90%;
+	height: 15%;
 	}
 
 #zone3  {
 	position:absolute;
-	left: 19%;
-	top: 21%;
-	width:27%;
-	height: 30%;
+	left: 5%;
+	top: 50%;
+	width: 40%;
+	height: 80%;
 	}
 
 #zone4  {
 	position:absolute;
-	left: 47%;
-	top: 23%;
-	width:34%;
-	height: 7%;
+	left: 45%;
+	top: 55%;
+	width: 50%;
+	height: 20%;
 	}
 
 #zone5  {
 	position:absolute;
-	left: 47%;
-	top: 31%;
-	width:34%;
-	height: 7%;
+	left: 45%;
+	top: 75%;
+	width: 50%;
+	height: 20%;
 	}
 
 #zone6  {
 	position:absolute;
-	left: 47%;
-	top: 38%;
-	width:32%;
-	height: 6%;
+	left: 0%;
+	top: 0%;
+	width: 0%;
+	height: 0%;
 	}
 
 #zone7  {
 	position:absolute;
-	left: 47%;
-	top: 44%;
-	width:32%;
-	height: 5%;
+	left: 0%;
+	top: 0%;
+	width: 0%;
+	height: 0%;
 	}
 
 #zone8  {
 	position:absolute;
-	left: 16%;
-	top: 54%;
-	width:73%;
-	height: 9%;
+	left: 0%;
+	top: 0%;
+	width: 0%;
+	height: 0%;
 	}
 
 #zone9a  {
 	position:absolute;
-	left: 16%;
-	top: 65%;
-	width:65%;
-	height: 9%;
+	left: 4%;
+	top: 140%;
+	width: 15%;
+	height: 20%;
+	}
+
+#zone9b  {
+	position:absolute;
+	left: 22%;
+	top: 138%;
+	width: 75%;
+	height: 25%;
 	}
 
 #zone10  {
 	position:absolute;
-	left: 16%;
-	top: 77%;
-	width:74%;
-	height: 11%;
+	left: 5%;
+	top: 170%;
+	width: 90%;
+	height: 35%;
 	}
 
 #zone11  {
 	position:absolute;
-	left: 23%;
-	top: 91%;
-	width:25%;
-	height: 8%;
+	left: 7%;
+	top: 215%;
+	width: 40%;
+	height: 20%;
 	}
 
 #zone12  {
 	position:absolute;
-	left: 53%;
-	top: 91%;
-	width: 24%;
-	height: 8%;
+	left: 55%;
+	top: 215%;
+	width: 40%;
+	height: 20%;
 	}
 
 
@@ -190,7 +206,7 @@ h6, .h6-like {
 	}
 
 svg {
-  position:relative;
+ position:relative;
  height: auto;
  width: 100%;
 }
